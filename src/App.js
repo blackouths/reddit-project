@@ -1,6 +1,6 @@
 import React from 'react';
 import Toolbar from './components/Navbar/Navbar';
-import '/Users/codenation/Documents/reddit/src/components/Navbar/Navbar.css';
+import './components/Navbar/Navbar.css';
 
 function App() {
   return (
