@@ -25,7 +25,7 @@
 }
 
 .side-drawer li {
-  margin: 0.5rem 0;
+  margin: 0.8rem 0;
 }
 
 .side-drawer a {
@@ -39,8 +39,3 @@
   color: #fa923f;
 }
 
-@media (min-width: 769px) {
-    .side-drawer {
-        display: none;
-    }
-}

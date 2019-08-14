@@ -15,7 +15,7 @@
 }
 
 .toolbar__logo {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .toolbar__logo a {
@@ -49,18 +49,8 @@
   color: #fa923f;
 }
 
-@media (max-width: 768px) {
-  .toolbar_navigation-items {
-    display: none;
-  }
-}
 
-@media (min-width: 769px) {
-  .toolbar__toggle-button {
-    display: none;
+.toolbar__logo {
+    margin-left: 1;
   }
 
-  .toolbar__logo {
-    margin-left: 0;
-  }
-}
