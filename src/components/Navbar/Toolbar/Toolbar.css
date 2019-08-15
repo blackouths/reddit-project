@@ -83,10 +83,13 @@ img {
     .toolbar__logo {
       display: none
     }
+    .dropdownMenu {
+      display: none
+    }
   }
 
   @media (min-width: 769px) {
     .toolbar__toggle-button {
-      display: none;
+      display: none
     }
   }
