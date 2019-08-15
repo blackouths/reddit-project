@@ -7,6 +7,7 @@
   height: 56px;
 }
 
+
 .toolbar__navigation {
   display: flex;
   height: 100%;
@@ -53,4 +54,10 @@
 .toolbar__logo {
     margin-left: 1;
   }
+
+  .dropdownMenu {
+    margin: '16px';
+    position: 'relative';
+    align-items: none;
+ }
 
