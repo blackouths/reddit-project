@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Toolbar from './components/Navbar/Toolbar/Toolbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';

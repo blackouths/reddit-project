@@ -1,10 +1,13 @@
 .toolbar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: rgb(203, 204, 203);
-  height: 64px;
+  background: rgb(255, 255, 255);
+  height: 54px;
+  -webkit-box-shadow: 0 6px 1px -6px #999;
+  -moz-box-shadow: 0 6px 1px -6px #999;
+  box-shadow: 0 6px 1px -6px #999;
 }
 
 .toolbar__navigation {
@@ -59,6 +62,20 @@ img {
 
 
 .toolbar__logo {
-    margin-left: 1;
+    margin-left: 0.2px;
   }
 
+ @media (max-width: 768px) {
+    .toolbar_navigation-items{ 
+      display: none
+    }
+    .toolbar__logo {
+      display: none
+    }
+  }
+
+  @media (min-width: 769px) {
+    .toolbar__toggle-button {
+      display: none;
+    }
+  }
