@@ -35,6 +35,11 @@ img {
   font-size: 1.5rem;
 }
 
+.search-bar {
+  display: flex;
+  margin-left: 22rem;
+}
+
 .spacer {
   flex: 1;
 }
