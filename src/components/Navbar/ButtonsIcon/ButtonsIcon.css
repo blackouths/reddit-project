@@ -1,0 +1,43 @@
+.icon-btn {
+    margin: 3px;
+    background-color: white;
+    background: white;
+	border: none;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+}
+.icon-btn:hover {
+	background-color: grey;
+}
+.icon-btn:active {
+	position:relative;
+	top:1px;
+}
+
+#popularBtn {
+  background-image: url('../ButtonsIcon/img/popular.svg');
+  background-repeat: no-repeat;
+  background-size: 28px;
+  height: 30px;
+  width: 30px;
+}
+#all {
+    background-image: url('../ButtonsIcon/img/all.svg');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    height: 30px;
+    width: 30px;
+}
+#oc {
+    background-image: url('../ButtonsIcon/img/oc.svg');
+    background-repeat: no-repeat;
+    background-size: 28px;
+    height: 30px;
+    width: 30px;
+  }
