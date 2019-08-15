@@ -40,6 +40,12 @@ img {
   margin-left: 22rem;
 }
 
+@media (max-width: 768px) {
+  .search-bar {
+    margin-left: 2rem;
+  }
+}
+
 .spacer {
   flex: 1;
 }
