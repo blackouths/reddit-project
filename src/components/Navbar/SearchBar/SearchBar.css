@@ -15,11 +15,6 @@
 
 .search-box:hover {
     border: 1px solid #0079D3;
-    background: white;
-}
-
-.search-input:hover{
-    background: white;
 }
 
 .search-input {
