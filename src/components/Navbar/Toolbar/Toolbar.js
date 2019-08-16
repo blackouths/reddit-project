@@ -17,9 +17,9 @@ const toolbar = props => (
         <div className="toolbar__logo"><a href="/"><img src={Reddit} alt="reddit icon"/></a></div>
         <div className='dropdownMenu'> <div style= {{ margin: '16px', position: 'relative'}}>
        <Dropdown items = {[
-          {value:  <span className='dd'><img className='pic' src= {Popular} alt="icon" />Popular</span>, id:1},
-          {value:  <span className='dd'><img className='pic' src= {all} alt="icon" />All</span>, id:2},
-          {value:  <span className='dd'><img className='pic' src= {oc} alt="icon"/>Original Content</span> , id:3},
+          {value: <span className='dd'><img className='pic' src= {Popular} alt="icon" />Popular</span>, id:1},
+          {value: <span className='dd'><img className='pic' src= {all} alt="icon" />All</span>, id:2},
+          {value: <span className='dd'><img className='pic' src= {oc} alt="icon"/>Original Content</span> , id:3},
           {value: <span className='dd'><img className='spic' src= {communities} alt="icon"/>Top Communities</span>, id:4},
           {value: <span className='dd'><img className='spic' src= {coin} alt="icon"/>Coins</span>, id:5},
           {value: <span className='dd'><img className='spic' src= {premium} alt="icon"/>Premium</span>, id:6}
