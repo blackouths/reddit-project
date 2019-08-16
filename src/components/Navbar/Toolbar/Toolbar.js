@@ -7,6 +7,12 @@ import Dropdown from '../Dropdown/Dropdown'
 import '../ButtonsSignUp/ButtonsSignUp.css'
 import ButtonsIcon from '../ButtonsIcon/ButtonsIcon';
 import ButtonsSignUp from '../ButtonsSignUp/ButtonsSignUp';
+import Popular from '../icons/popular.png'
+import all from '../icons/all.png'
+import oc from '../icons/oc.png'
+import communities from '../icons/communities.png'
+import coin from '../icons/coin.png'
+import premium from '../icons/premium.png'
 
 const toolbar = props => (
   <header className="toolbar">

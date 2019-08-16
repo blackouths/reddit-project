@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/Navbar/Toolbar/Toolbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
-import Card from './components/contentBox/contentbox';
+import ContentBox from './components/contentBox/contentbox';
 
 class App extends Component {
   state = {
@@ -32,7 +32,7 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop: '64px'}}>
         Page Content
-        <Card/>
+        {/* <ContentBox/> */}
         </main>
 
       </div>
