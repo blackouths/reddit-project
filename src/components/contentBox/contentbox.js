@@ -1,13 +1,12 @@
 import React from 'react';
 import "./contentbox.css";
 import {ListGroup, ListGroupItem,} from 'reactstrap';
-import Image from 'react-bootstrap/Image';
 
 class ContentBox extends React.Component{
     render() {
     return (
-        <div className="container"
-        <section className="background-banner">
+        <div className="container">
+        <section>
             <span>Today's Top Growing Communities</span>
             </section>
         
@@ -19,6 +18,7 @@ class ContentBox extends React.Component{
             <ListGroupItem tag="a" href="http://www.reddit.com/r/aww">r/aww</ListGroupItem>
             </ListGroup>
             </div>
+            
     )
 }
 }
