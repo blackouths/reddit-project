@@ -5,6 +5,9 @@
     width: 600px;
     display: flex;
     flex-direction: row;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
 }
 
 .wide-box-left {
@@ -14,6 +17,9 @@
     background-color: #F8F9FA;
     font-size: 0.8em;
     width: 6%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
 }
 
 .wide-box-field {
@@ -21,6 +27,9 @@
     font-weight: 600;
     padding-top: 0;
     margin-top: 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
 }
 
 .wide-box-right-top {
@@ -39,6 +48,9 @@
     font-size: 0.8em;
     color: gray;
     padding-bottom: 5px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
 }
 
 .wide-box-right-bottom-share {
