@@ -1,11 +1,12 @@
 import React from 'react';
 import "./contentbox.css";
 import {ListGroup, ListGroupItem,} from 'reactstrap';
+import Image from 'react-bootstrap/Image';
 
 class ContentBox extends React.Component{
     render() {
     return (
-        <div className="container">
+        <div className="container"
         <section className="background-banner">
             <span>Today's Top Growing Communities</span>
             </section>
