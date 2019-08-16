@@ -8,9 +8,9 @@ class Wide extends React.Component {
         return (
             <div className="wide-box">
                 <div className="wide-box-left">
-                    <div className="wide-box-left-arrow-up"><img src={arrowUp} /></div>
+                    <div className="wide-box-left-arrow-up"><img src={arrowUp} alt="" /></div>
                     <div className="wide-box-left-rating">{this.props.ratings}</div>
-                    <div className="wide-box-left-arrow-down"><img src={arrowDown} /></div>
+                    <div className="wide-box-left-arrow-down"><img src={arrowDown} alt="" /></div>
                 </div>
                 <div className="wide-box-right">
                     <div className="wide-box-right-top">

@@ -3,6 +3,7 @@ import Toolbar from './components/Navbar/Toolbar/Toolbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
 import ContentBox from './components/contentBox/contentbox';
+import Wide from './components/main/wide/wide';
 
 class App extends Component {
   state = {
@@ -32,6 +33,7 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop: '64px'}}>
         <ContentBox/>
+        <Wide/>
         </main>
 
       </div>
