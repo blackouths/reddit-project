@@ -37,7 +37,7 @@ img {
 
 .search-bar {
   display: flex;
-  margin-left: 12rem;
+  margin-left: 7rem;
 }
 
 @media (max-width: 768px) {
