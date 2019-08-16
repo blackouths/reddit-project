@@ -32,7 +32,7 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop: '64px'}}>
         Page Content
-        {/* <ContentBox/> */}
+        <ContentBox/>
         </main>
 
       </div>
