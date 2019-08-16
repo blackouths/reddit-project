@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/Navbar/Toolbar/Toolbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
+import ContentBox from './components/contentBox/contentbox';
 
 class App extends Component {
   state = {
@@ -31,8 +32,9 @@ class App extends Component {
         {backdrop}
         <main style={{marginTop: '64px'}}>
         Page Content
+        {/* <ContentBox/> */}
         </main>
-        
+
       </div>
     );
   }
