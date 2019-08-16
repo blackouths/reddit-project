@@ -13,4 +13,8 @@ main {
   color: black;
 }
 
+.toolbar {
+  z-index: 10000;
+}
+
 
