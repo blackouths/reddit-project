@@ -93,3 +93,23 @@ img {
       display: none
     }
   }
+
+  .pic {
+    width: 30px;
+    height: 20px;
+ }
+ 
+ .spic {
+    width: 20px;
+    height: 20 px;
+    margin-right: 10px;
+ 
+ }
+ .dd {
+  display: flex;
+ }
+ 
+ .dd:hover,
+ .dd:active {
+  background-color: rgb(240, 240, 240);
+ }

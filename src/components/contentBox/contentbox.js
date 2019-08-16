@@ -1,17 +1,13 @@
 import React from 'react';
+import "./contentbox.css";
+import {ListGroup, ListGroupItem,} from 'reactstrap';
 
 const ContentBox = props => {
     return (
         <div>
-            <ul>
-                <div className="background-banner">
-                <h2><span>Today's Top Growing Communities</span></h2>
-                </div>
-                </ul>   
-            </div>
-
-        
-        
-    );
+            <Card>
+                <CardBody></CardBody>
+            </Card>
+        </div>
+    )
 }
-export default ContentBox;
