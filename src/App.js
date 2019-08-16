@@ -34,6 +34,7 @@ class App extends Component {
         <main style={{marginTop: '64px'}}>
         <ContentBox/>
         <Wide ratings= '24.6K'  field= 'coding' info='I have dedicated myself to the #100daysofcoding challenge and have started to do live streams everyday on Twitch. Link is down below. Will probably start around 10pm BST depending on how long my D and D game goes on for.' comments='53 Comments' shares='Share'/>
+        <Wide ratings= '24.6K'  field= 'coding' info='I have dedicated myself to the #100daysofcoding challenge and have started to do live streams everyday on Twitch. Link is down below. Will probably start around 10pm BST depending on how long my D and D game goes on for.' comments='53 Comments' shares='Share'/>
         </main>
 
       </div>
