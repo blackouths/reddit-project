@@ -3,8 +3,8 @@
 }
 
 .select-box--box {
-    width: 180px;
-    position: absolute;
+    width: 200px;
+    position: relative;
     left: 10px;
 }
 
@@ -12,22 +12,30 @@
     display: inline-block;
     height: 100%;
     width: 100%;
+    margin-top: 4px;
     padding: 4px 12 px;
     vertical-align: middle; 
 }
 
+
+
+
 .select-box--items div {
-    border-bottom: 1px solid dimgray;
-    border-left: 1px solid dimgray;
-    border-right: 1px solid dimgray;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    border-left: 1px solid rgb(240, 240, 240);
+    border-right: 1px solid rgb(240, 240, 240);
     padding: 6px;
     padding-left: 20px;
+    background-color: white;
 }
+
+
 
 .select-box--container {
     height: 30px;
-    border: 1px solid dimgray;
-    width: 100%;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    width: 200px;
     margin: 0;
     padding: 0;
 }
@@ -38,7 +46,7 @@
     margin: 0;
     padding: 0;
     display: inline-block;
-    background: dimgray;
+    background: none;
     position: absolute;
     right: 0;
     top: 0;
@@ -51,9 +59,9 @@
     left: 8px;
     width: 0;
     height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 10px solid white;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid black;
 }
 
 .select-box--arrow-up {
@@ -62,7 +70,7 @@
     left: 8px;
     width: 0;
     height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 10px solid white;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 5px solid black;
 }
