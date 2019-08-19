@@ -1,15 +1,13 @@
 import React from 'react';
-import "./contentbox.css";
-import {ListGroup, ListGroupItem,} from 'reactstrap';
+import {ListGroup, ListGroupItem, Container,Row,Col} from 'reactstrap';
+import './contentbox.css';
 
 class ContentBox extends React.Component{
     render() {
     return (
-        <div className="container">
-        <section>
+        <Container>
+        <div class="col-md-4">
             <span>Today's Top Growing Communities</span>
-            </section>
-        
             <ListGroup flush>
             <ListGroupItem tag="a" href="http://www.reddit.com/r/JoeRogan">r/JoeRogan</ListGroupItem>
             <ListGroupItem tag="a" href="http://www.reddit.com/r/holdmybeer">r/holdmybeer</ListGroupItem>
@@ -18,6 +16,7 @@ class ContentBox extends React.Component{
             <ListGroupItem tag="a" href="http://www.reddit.com/r/aww">r/aww</ListGroupItem>
             </ListGroup>
             </div>
+            </Container>
             
     )
 }
