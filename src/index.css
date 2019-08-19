@@ -13,4 +13,14 @@ main {
   color: black;
 }
 
+.toolbar {
+  z-index: 10000;
+}
 
+@media (max-width: 768px) {
+  main {
+    background: #DAE0E6;
+    width: 100%;
+    height: auto;
+  }
+}

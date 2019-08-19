@@ -10,6 +10,7 @@
     max-width: 400px;
     width: 250%;
     text-align: left;
+    outline: none;
 }
 .search-box:hover {
     border: 1px solid #0079D3;
@@ -21,11 +22,12 @@
     box-sizing: border-box;
     background-color: rgb(240, 240, 240);
     border: 0px;
-    padding: 5.5px 0;
+    padding: 5.7px 0;
     font-size: 1em;
     position: relative;
     width: 87%;
     align-items: center;
+    outline: none;
 }
 .search-input:hover {
     background-color: white;

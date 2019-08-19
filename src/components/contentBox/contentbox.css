@@ -1,10 +1,6 @@
-.container {
-    width: 10rem;
-    border: 1px black;
-}
-
-.background-banner {
-    
-    align-content: center;
+@media (max-width: 768px) {
+    .container {
+        display: none;
+    }
 }
 

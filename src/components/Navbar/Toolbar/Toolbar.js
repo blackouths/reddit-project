@@ -38,10 +38,12 @@ const toolbar = props => (
         <div className="search-bar"/>
         <SearchBar searchBoxName={"userNameSearch"} onSearchTermChange={this.onSearch}/>
         <div className="spacer" />
+        <div className="side-buttons">
         <ButtonsIcon type="submit" href="" id="popularBtn"/>
         <ButtonsIcon type="submit" href="" id="all"/>
         <ButtonsIcon type="submit" href="" id="oc"/> 
         <ButtonsSignUp type="submit" href="" name1="LOG IN" name2="SIGN UP"/>
+        </div>
         <div className="toolbar_navigation-items">
         </div>
     </nav>

@@ -86,12 +86,19 @@ img {
     .dropdownMenu {
       display: none
     }
+    .side-buttons {
+      display: none;
+    }
   }
 
   @media (min-width: 769px) {
     .toolbar__toggle-button {
       display: none
     }
+  }
+
+  .side-buttons {
+    display: flex;
   }
 
   .pic {
