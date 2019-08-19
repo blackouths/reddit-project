@@ -35,15 +35,15 @@ const toolbar = props => (
           {value: <span className='dd'><img className='spic' src= {coin} alt="icon"/>Coins</span>, id:5},
           {value: <span className='dd'><img className='spic' src= {premium} alt="icon"/>Premium</span>, id:6}
 
-         ]} >
+         ]} />
 
-         </Dropdown>
+        
        </div>
        </div>
         <div className="search-bar"/>
         <SearchBar searchBoxName={"userNameSearch"} onSearchTermChange={this.onSearch}/>
         <div className="spacer" />
-        
+        <div className="side-buttons">
         <ButtonsIcon type="submit" href="" id="popularBtn"/>
         <ButtonsIcon type="submit" href="" id="all"/>
         <ButtonsIcon type="submit" href="" id="oc"/> 
@@ -64,7 +64,7 @@ const toolbar = props => (
          </User>
        </div>
        </div>
-        
+        </div>
         <div className="toolbar_navigation-items">
         </div>
     </nav>

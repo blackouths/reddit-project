@@ -1,18 +1,27 @@
 html {
   height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  height: 100%;
-  width: 100%;
   background: #DAE0E6;
   background-attachment: fixed;
 }
 
 main {
-  color: black
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+  color: black;
+  background: #DAE0E6;
+  background-attachment: fixed;
 }
 
+.toolbar {
+  z-index: 10000;
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    height: auto;
+  }
+}

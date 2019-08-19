@@ -23,6 +23,7 @@
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
+	outline: none;
 }
 .logIn-btn:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
@@ -64,6 +65,7 @@
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #154682;
+	outline: none;
 }
 .signUp-btn:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
@@ -79,4 +81,13 @@
 	position:relative;
     top:1px;
     
+}
+
+@media (max-width: 768px) {
+    .logIn-btn{ 
+      display: none
+	}
+	.signUp-btn{
+		display: none
+	}
 }

@@ -37,7 +37,7 @@ img {
 
 .search-bar {
   display: flex;
-  margin-left: 14rem;
+  margin-left: 7rem;
 }
 
 @media (max-width: 768px) {
@@ -86,12 +86,19 @@ img {
     .dropdownMenu {
       display: none
     }
+    .side-buttons {
+      display: none;
+    }
   }
 
   @media (min-width: 769px) {
     .toolbar__toggle-button {
       display: none
     }
+  }
+
+  .side-buttons {
+    display: flex;
   }
 
   .pic {
