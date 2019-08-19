@@ -30,9 +30,9 @@ const toolbar = props => (
           {value: <span className='dd'><img className='spic' src= {coin} alt="icon"/>Coins</span>, id:5},
           {value: <span className='dd'><img className='spic' src= {premium} alt="icon"/>Premium</span>, id:6}
 
-         ]} >
+         ]} />
 
-         </Dropdown>
+        
        </div>
        </div>
         <div className="search-bar"/>
