@@ -37,17 +37,13 @@ img {
 
 .search-bar {
   display: flex;
-  margin-left: 7rem;
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 768px) {
   .search-bar {
     margin-left: 2rem;
   }
-}
-
-.spacer {
-  flex: 1;
 }
 
 .toolbar_navigation-items ul {
