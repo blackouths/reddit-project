@@ -82,3 +82,12 @@
     top:1px;
     
 }
+
+@media (max-width: 768px) {
+    .logIn-btn{ 
+      display: none
+	}
+	.signUp-btn{
+		display: none
+	}
+}
