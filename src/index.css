@@ -1,5 +1,7 @@
 html {
   height: 100%;
+  background: #DAE0E6;
+  background-attachment: fixed;
 }
 
 main {
@@ -8,9 +10,9 @@ main {
   font-family: sans-serif;
   height: 100%;
   width: 100%;
+  color: black;
   background: #DAE0E6;
   background-attachment: fixed;
-  color: black;
 }
 
 .toolbar {
