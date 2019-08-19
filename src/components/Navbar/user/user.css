@@ -2,13 +2,13 @@
     box-sizing: border-box;
  }
  
- .select-box--box {
+ .select-box--box1 {
     width: 200px;
     position: relative;
     left: 10px;
  }
  
- .select-box--selected-item {
+ .select-box--selected-item1 {
     display: inline-block;
     height: 100%;
     width: 100%;
@@ -19,7 +19,7 @@
  }
  
  
- .select-box--items div {
+ .select-box--items1 div {
     border-bottom: 1px solid rgb(240, 240, 240);
     border-left: 1px solid rgb(240, 240, 240);
     border-right: 1px solid rgb(240, 240, 240);
@@ -30,7 +30,7 @@
  
  
  
- .select-box--container {
+ .select-box--container1 {
     height: 30px;
     border: 1px solid rgb(240, 240, 240);
     border-radius: 5px;
@@ -39,7 +39,7 @@
     padding: 0;
  }
  
- .select-box-arrow {
+ .select-box-arrow1 {
     width: 30px;
     height: 30px;
     margin: 0;
@@ -52,7 +52,7 @@
  }
  
  
- .select-box--arrow-down {
+ .select-box--arrow-down1 {
     position: absolute;
     top: 12px;
     left: 8px;
@@ -63,7 +63,7 @@
     border-top: 5px solid black;
  }
  
- .select-box--arrow-up {
+ .select-box--arrow-up1 {
     position: absolute;
     top: 10px;
     left: 8px;
@@ -73,14 +73,3 @@
     border-right: 4px solid transparent;
     border-bottom: 5px solid black;
  }
-
- /* .select-box--container .dright {
-    height: 30px;
-    border: 1px solid rgb(240, 240, 240);
-    border-radius: 5px;
-    width: 100px;
-    margin: 0;
-    padding: 0;
- } */
-
-
