@@ -1,8 +1,8 @@
 import React from 'react';
-import './Dropdown.css';
+import './user.css';
 
 
-class Dropdown extends React.Component {
+class User extends React.Component {
     state = {
         items: this.props.items,
         showItems: false,
@@ -21,17 +21,17 @@ class Dropdown extends React.Component {
     })
 
     render() {
-        return (<div className='select-box--box'>
+        return (<div className='select-box--box1'>
             <div>
             <div 
-            className='select-box--container dright'>
-                <div className='select-box--selected-item dright'> 
+            className='select-box--container1'>
+                <div className='select-box--selected-item1'> 
                 {this.state.selectedItem.value} </div>
 
-                <div className='select-box-arrow'
+                <div className='select-box-arrow1'
                 onClick={this.dropDown}>
                     
-                <span className={`${this.state.showItems ? 'select-box--arrow-up' : 'select-box--arrow-down'}`} />
+                <span className={`${this.state.showItems ? 'select-box--arrow-up1' : 'select-box--arrow-down'}`} />
                 </div>
                     
                 <div style={{display: this.state.showItems ? 'block' : 'none'}}
@@ -54,4 +54,4 @@ class Dropdown extends React.Component {
         </div>)
 }}
 
-export default Dropdown;
+export default User;
