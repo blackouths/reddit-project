@@ -48,7 +48,7 @@ const toolbar = props => (
         <ButtonsIcon type="submit" href="" id="oc"/> 
         <ButtonsSignUp type="submit" href="" name1="LOG IN" name2="SIGN UP"/>
         <div className='users'> <div style= {{ margin: '16px', position: 'relative'}}>
-       <User items = {[
+        <User items = {[
 
           {value: <span className='dd dright'><img className='spic' src= {id} alt="icon" /></span>, id:0},
           {value: <span className='dd'><img className='spic' src= {moon} alt="icon" />Night Mode</span>, id:1},

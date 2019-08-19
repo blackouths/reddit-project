@@ -115,9 +115,8 @@ img {
   display: flex;
  }
  
- .dd:hover,
- .dd:active {
-  background-color: rgb(240, 240, 240);
+ .dd:hover {
+  border: 1px solid rgb(240, 240, 240);
  }
 
  .dright {

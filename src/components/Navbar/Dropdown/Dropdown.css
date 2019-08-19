@@ -32,7 +32,7 @@
  
  .select-box--container {
     height: 30px;
-    border: 1px solid rgb(240, 240, 240);
+    /* border: 1px solid rgb(240, 240, 240); */
     border-radius: 5px;
     width: 200px;
     margin: 0;

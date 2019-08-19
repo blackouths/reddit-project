@@ -6,6 +6,7 @@ class ContentBox extends React.Component{
     render() {
     return (
         <Container>
+        <div id="list">
         <div class="col-md-4">
             <span>Today's Top Growing Communities</span>
             <ListGroup flush>
@@ -15,6 +16,7 @@ class ContentBox extends React.Component{
             <ListGroupItem tag="a" href="http://www.reddit.com/r/yesyesyesno">r/yesyesyesno</ListGroupItem>
             <ListGroupItem tag="a" href="http://www.reddit.com/r/aww">r/aww</ListGroupItem>
             </ListGroup>
+            </div>
             </div>
             </Container>
             
