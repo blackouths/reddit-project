@@ -79,10 +79,13 @@ img {
     .toolbar__logo {
       display: none
     }
-    .dropdownMenu {
+    .userMenu {
       display: none
     }
     .side-buttons {
+      display: none;
+    }
+    .users{
       display: none;
     }
   }

@@ -40,3 +40,9 @@
 .search-icon img {
     width: 24px;
 }
+
+@media (max-width: 768px) {
+    .search-box:hover{
+        display: none
+    }
+}
