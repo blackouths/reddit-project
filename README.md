@@ -1,3 +1,5 @@
+Created by Lewis Spencer, Katarina Khytushko and Henrieta Frankova for a project during our bootcamp.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
